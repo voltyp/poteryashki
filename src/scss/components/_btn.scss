@@ -1,0 +1,24 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 16px 40px;
+  min-width: 222px;
+  font-size: 40px;
+  line-height: 46px;
+  color: var(--light-color);
+  background-color: var(--accent-color);
+  -webkit-box-shadow: 8px 9px 0px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 8px 9px 0px 0px rgba(0, 0, 0, 1);
+  box-shadow: 8px 9px 0px 0px rgba(0, 0, 0, 1);
+  transition: all .3s linear;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: translate(8px, 9px);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
