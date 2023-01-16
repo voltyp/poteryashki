@@ -1,10 +1,10 @@
 .hero {
-  padding-top: 200px;
+  padding-top: 120px;
   min-height: 800px;
   background-color: var(--gray-color);
 
   &__container {
-    @include flex;
+    @include flex-all-sb;
   }
 
   &__content {
@@ -27,5 +27,9 @@
 
   &__link {
     margin: 0 auto;
+  }
+
+  &__picture {
+    transform: translateX(-125px);
   }
 }
