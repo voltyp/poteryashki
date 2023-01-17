@@ -1,0 +1,19 @@
+.section {
+  padding: 90px 0;
+
+  &--yellow {
+    background-color: var(--yellow-color);
+  }
+
+  &--gray {
+    background-color: var(--gray-color);
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: center;
+    color: black;
+  }
+}
