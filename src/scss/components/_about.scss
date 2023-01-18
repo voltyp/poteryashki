@@ -1,0 +1,36 @@
+.about {
+  &__title {
+    margin-bottom: 78px;
+  }
+
+  &__content {
+    @include flex;
+    align-items: flex-start;
+    gap: 115px;
+  }
+
+  &__text {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 60px;
+  }
+
+  &__text-item {
+    grid-column: 4 span;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: black;
+  }
+
+  &__text-item:first-child {
+    grid-column: 1 / -1;
+    font-size: 35px;
+    line-height: 41px;
+    text-indent: 1px;
+  }
+
+  &__picture {
+    min-width: 488px;
+  }
+}
