@@ -1,0 +1,16 @@
+.mission {
+  &__title {
+    margin-bottom: 40px;
+  }
+
+  &__text {
+    max-width: 961px;
+    margin: auto;
+    font-size: 50px;
+    line-height: 58px;
+    color: black;
+    strong {
+      font-weight: 400;
+    }
+  }
+}
