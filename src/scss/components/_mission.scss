@@ -18,6 +18,34 @@
   &__video {
     margin-bottom: 110px;
   }
+
+  &__list {
+    @include flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  &__item-text {
+    margin: 0;
+    max-width: 355px;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: black;
+    span {
+      display: inline-block;
+      width: 100%;
+      font-weight: 500;
+      font-size: 120px;
+      line-height: 139px;
+      color: var(--yellow-color);
+      -webkit-text-stroke: 1px black;
+      margin-bottom: 10px;
+    }
+  }
 }
 
 .vjs-poster {
