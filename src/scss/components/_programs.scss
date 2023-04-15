@@ -1,0 +1,14 @@
+.programs {
+  &__list {
+    @include flex-all-center;
+    flex-wrap: wrap;
+    gap: 175px;
+  }
+
+  &__item {
+    width: 390px;
+    height: 480px;
+    padding: 21px;
+    overflow: hidden;
+  }
+}

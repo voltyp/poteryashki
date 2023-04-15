@@ -25,6 +25,10 @@
     color: black;
   }
 
+  &--yellow {
+    background-color: var(--yellow-color);
+  }
+
   &--person {
     background-color: var(--yellow-color);
     padding-bottom: 33px;
