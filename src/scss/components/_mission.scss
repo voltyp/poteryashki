@@ -6,11 +6,22 @@
   &__text {
     max-width: 961px;
     margin: auto;
+    margin-bottom: 110px;
     font-size: 50px;
     line-height: 58px;
     color: black;
     strong {
       font-weight: 400;
     }
+  }
+
+  &__video {
+    margin-bottom: 110px;
+  }
+}
+
+.vjs-poster {
+  img {
+    object-fit: cover;
   }
 }
