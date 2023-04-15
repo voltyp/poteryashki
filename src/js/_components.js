@@ -1,1 +1,2 @@
-import "./components/smooth-scroll"
+import "./components/smooth-scroll";
+import "./components/videojs";

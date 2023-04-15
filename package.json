@@ -17,6 +17,7 @@
   "devDependencies": {
     "@babel/core": "^7.16.7",
     "@babel/preset-env": "^7.16.7",
+    "@videojs/themes": "^1.0.1",
     "babel-loader": "^8.2.3",
     "browser-sync": "^2.26.14",
     "del": "^6.0.0",
@@ -50,6 +51,7 @@
     "stylelint-config-standard-scss": "^3.0.0",
     "stylelint-order": "^5.0.0",
     "typograf": "^6.14.1",
+    "video.js": "^8.0.4",
     "webpack": "^5.65.0",
     "webpack-stream": "^7.0.0"
   },
