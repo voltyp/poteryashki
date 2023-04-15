@@ -1,0 +1,13 @@
+.team {
+  &__container {
+    @include flex-v-center;
+    flex-direction: column;
+  }
+
+  &__cards {
+    @include flex-all-sb;
+    flex-wrap: wrap;
+    gap: 60px 30px;
+    margin-bottom: 80px;
+  }
+}

@@ -4,10 +4,8 @@
   }
 
   &__list {
-    @include flex;
-    flex-direction: row;
+    @include flex-all-center;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 140px 100px;
   }
 

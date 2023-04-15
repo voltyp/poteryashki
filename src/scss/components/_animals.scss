@@ -1,40 +1,7 @@
 .animals {
-  padding: 90px 0;
-
-  &__title {
-    margin-bottom: 87px;
-  }
-
   &__cards {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    @include flex-all-center;
+    flex-wrap: wrap;
     gap: 36px;
-  }
-
-  &__card {
-    grid-column: 3 span;
-    padding: 25px;
-    padding-bottom: 21px;
-    background-color: var(--gray-color);
-    border: 2px dashed black;
-    border-radius: 5px;
-
-    &-picture {
-      margin-bottom: 19px;
-
-      .image {
-        border-radius: 5px;
-      }
-    }
-
-    &-title {
-      margin: 0;
-      font-weight: 700;
-      font-size: 30px;
-      line-height: 35px;
-      text-align: center;
-      text-transform: uppercase;
-      color: black;
-    }
   }
 }

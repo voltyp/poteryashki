@@ -1,0 +1,54 @@
+.card {
+  padding: 23px;
+  padding-bottom: 21px;
+  @include flex;
+  flex-direction: column;
+  row-gap: 19px;
+  background-color: var(--gray-color);
+  border-radius: 5px;
+
+  &__picture {
+    display: inline-block;
+
+    .image {
+      border-radius: 5px;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+  }
+
+  &--person {
+    background-color: var(--yellow-color);
+    padding-bottom: 33px;
+
+    .card__picture {
+      width: 463px;
+      height: 464px;
+      overflow: hidden;
+    }
+
+    .card__title {
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 37px;
+      text-transform: none;
+    }
+
+    .card__subtitle {
+      margin: 0;
+      font-weight: 300;
+      font-size: 32px;
+      line-height: 37px;
+      text-align: center;
+      color: black;
+    }
+  }
+}
