@@ -1,7 +1,7 @@
 .card {
   padding: 23px;
   padding-bottom: 21px;
-  @include flex;
+  @include flex-v-center;
   flex-direction: column;
   row-gap: 19px;
   background-color: var(--gray-color);

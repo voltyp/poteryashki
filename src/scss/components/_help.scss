@@ -1,0 +1,21 @@
+.help {
+  &__container {
+    @include flex-v-center;
+    flex-direction: column;
+  }
+
+  &__list {
+    @include flex-all-sb;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 96px;
+  }
+
+  &__card {
+    padding: 43px 20px;
+    width: 302px;
+    height: 312px;
+    justify-content: end;
+    overflow: hidden;
+  }
+}
